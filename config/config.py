@@ -97,7 +97,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/IamDvis/DV-MUSIC",
+    "https://",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -118,14 +118,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ai_image_junction"
+    "SUPPORT_CHANNEL", "https://t.me/AF_T3M"
 )  # Example:- https://t.me/ai_image_junction
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/+7ehnJA3aMb84OGNl"
+    "SUPPORT_GROUP", "https://t.me/AF_T3M_Chat"
 )  # Example:- https://t.me/+7ehnJA3aMb84OGNl
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/+7ehnJA3aMb84OGNl"
+    "SUPPORT_GROUP", "https://t.me/AF_T3M_Chat"
 )  # Example:- https://t.me/+7ehnJA3aMb84OGNl
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -149,7 +149,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/IamDvis/DV-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/AF_Team_Owner")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
